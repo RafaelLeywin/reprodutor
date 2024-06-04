@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(5, 5, 5);
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+
+#over {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 28px 0 19px 0;
+}
+
+#dress {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0 29px 0;
+
+}
+
+#extra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.botoes {
+    font-size: 1.5em;
+}
+
+.botao-play {
+    font-size: 4em;
+}
+
+#capa {
+    width: 370px;
+}
+
+#titulo-playlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 16px 0 60px 0;
+}
+
+#nome-musica {
+    font-size: 1.66em;
+    font-weight: bold;
+}
+
+.cores-palavras {
+    color: #7f7f7f;
+}
+
+#cursor-audio {
+    background-color: #7f7f7f;
+    height: 3px;
+    border-radius: 15px;
+}
+
+#cursor-temporeal {
+    background-color: white;
+    height: inherit;
+    width: 100px;
+    border-radius: inherit;
+}
